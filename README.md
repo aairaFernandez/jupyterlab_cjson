@@ -18,13 +18,13 @@ npm run build
 Install extension:
 
 ```bash
-jupyter labextension link .
+jupyter labextension install @openchemistry/jupyterlab-extension
 ```
 
 Uninstall extension:
 
 ```bash
-jupyter labextension unlink .
+jupyter labextension uninstall @openchemistry/jupyterlab-extension
 ```
 
 Re-build Javascript:
